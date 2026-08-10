@@ -19,7 +19,7 @@ export default function MyDeveloperPortfolio() {
         </h1>
 
         <p className="max-w-xl text-lg text-muted-foreground">
-          Developer portfolio V1 — built with Tailwind and shadcn/ui. The awe comes next.
+          I build fast, scalable, and delightful web experiences — clean interfaces backed by solid architecture.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-3">
@@ -31,7 +31,7 @@ export default function MyDeveloperPortfolio() {
 
         <div className="mt-6 w-full max-w-md rounded-2xl border border-white/10 bg-white/5 p-6 text-left backdrop-blur-md">
           <p className="text-sm text-muted-foreground">
-            This card is glassmorphism — a translucent background, a subtle border, and a real backdrop blur.
+            Currently building, exploring, and open to interesting problems worth solving.
           </p>
         </div>
       </div>
