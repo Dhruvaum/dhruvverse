@@ -1,7 +1,7 @@
 import { lazy, Suspense } from 'react'
 import type { ReactNode } from 'react'
 import { createBrowserRouter } from 'react-router-dom'
-import RootLayout from '@/layouts/RootLayout'
+import Layout from '@/components/Layout'
 import Loader from '@/components/Loader'
 
 const Landing = lazy(() => import('@/features/portfolio/MyDeveloperPortfolio'))
@@ -13,7 +13,7 @@ const lazyRoute = (node: ReactNode): ReactNode => (
 export const router = createBrowserRouter([
   {
     path: '/',
-    element: <RootLayout />,
+    element: <Layout />,
     children: [{ index: true, element: lazyRoute(<Landing />) }],
   },
 ])
