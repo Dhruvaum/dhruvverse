@@ -16,7 +16,7 @@ const Reveal = ({ children, className = '' }: { children: ReactNode; className?:
           observer.unobserve(node)
         }
       },
-      { threshold: 0.2 },
+      { threshold: 0, rootMargin: '0px 0px -10% 0px' },
     )
 
     observer.observe(node)

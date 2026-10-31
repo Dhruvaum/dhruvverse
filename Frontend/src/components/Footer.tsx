@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaXTwitter, FaEnvelope } from 'react-icons/fa6'
 import SectionDivider from './SectionDivider'
 
 const links = [
-  { label: 'Email', href: 'mailto:dhruvtyagi1001@gmail.com', external: false, icon: FaEnvelope },
+  { label: 'Email', href: 'mailto:contact@dhruvverse.com', external: false, icon: FaEnvelope },
   { label: 'GitHub', href: 'https://github.com/Dhruvaum', external: true, icon: FaGithub },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/dhruv-tyagi-741169296/', external: true, icon: FaLinkedin },
   { label: 'X', href: 'https://x.com/TyagiDhruv85165', external: true, icon: FaXTwitter },
