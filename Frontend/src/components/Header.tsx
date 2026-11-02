@@ -4,10 +4,11 @@ import logo from '../assets/Logo.png'
 import ThemeToggle from './ThemeToggle'
 
 const navLinks = [
-  { label: 'About', href: '#about' },
   { label: 'Experience', href: '#experience' },
   { label: 'Projects', href: '#projects' },
+  { label: 'Open Source', href: '#open-source' },
   { label: 'Skills', href: '#skills' },
+  { label: 'About', href: '#about' },
   { label: 'Contact', href: '#contact' },
 ]
 
